@@ -26,5 +26,10 @@ namespace WinFormAdv32
         {
 
         }
+
+        private void 다음찾ㄱ기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
