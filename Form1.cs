@@ -47,5 +47,11 @@ namespace WinFormAdv32
             Application.Exit();
         }
 
+        private void 새로만들기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox1.Text = "새로 만들기 메뉴를 선택하였습니다.";
+        }
+
     }
 }
