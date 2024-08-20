@@ -125,6 +125,7 @@
             // 
             this.열기ToolStripMenuItem.Name = "열기ToolStripMenuItem";
             resources.ApplyResources(this.열기ToolStripMenuItem, "열기ToolStripMenuItem");
+            this.열기ToolStripMenuItem.Click += new System.EventHandler(this.열기ToolStripMenuItem_Click);
             // 
             // 저장ToolStripMenuItem
             // 
@@ -375,14 +376,8 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox1.Location = new System.Drawing.Point(13, 28);
-            this.textBox1.Multiline = true;
+            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(518, 260);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "ㅇㄴㄹㄴㄹㄴ";
             // 
             // Form1
             // 
