@@ -312,16 +312,19 @@
             // 
             this.확대ToolStripMenuItem.Name = "확대ToolStripMenuItem";
             resources.ApplyResources(this.확대ToolStripMenuItem, "확대ToolStripMenuItem");
+            this.확대ToolStripMenuItem.Click += new System.EventHandler(this.확대ToolStripMenuItem_Click);
             // 
             // 축소ToolStripMenuItem
             // 
             this.축소ToolStripMenuItem.Name = "축소ToolStripMenuItem";
             resources.ApplyResources(this.축소ToolStripMenuItem, "축소ToolStripMenuItem");
+            this.축소ToolStripMenuItem.Click += new System.EventHandler(this.축소ToolStripMenuItem_Click);
             // 
             // 확대하기축소하기기본값복원ToolStripMenuItem
             // 
             this.확대하기축소하기기본값복원ToolStripMenuItem.Name = "확대하기축소하기기본값복원ToolStripMenuItem";
             resources.ApplyResources(this.확대하기축소하기기본값복원ToolStripMenuItem, "확대하기축소하기기본값복원ToolStripMenuItem");
+            this.확대하기축소하기기본값복원ToolStripMenuItem.Click += new System.EventHandler(this.확대하기축소하기기본값복원ToolStripMenuItem_Click);
             // 
             // 상태표시줄ToolStripMenuItem
             // 
@@ -372,7 +375,7 @@
             // 
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
             resources.ApplyResources(this.toolStripProgressBar1, "toolStripProgressBar1");
-            this.toolStripProgressBar1.Value = 100;
+            this.toolStripProgressBar1.Value = 50;
             // 
             // textBox1
             // 
