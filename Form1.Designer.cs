@@ -68,6 +68,9 @@
             this.축소ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.확대하기축소하기기본값복원ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.상태표시줄ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.도움말보기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.피드백보내기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.메모장정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -319,6 +322,10 @@
             // 
             // 도움말ToolStripMenuItem
             // 
+            this.도움말ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.도움말보기ToolStripMenuItem,
+            this.피드백보내기ToolStripMenuItem,
+            this.메모장정보ToolStripMenuItem});
             this.도움말ToolStripMenuItem.Name = "도움말ToolStripMenuItem";
             this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.도움말ToolStripMenuItem.Text = "도움말";
@@ -356,6 +363,24 @@
             this.상태표시줄ToolStripMenuItem.Name = "상태표시줄ToolStripMenuItem";
             this.상태표시줄ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.상태표시줄ToolStripMenuItem.Text = "상태표시줄";
+            // 
+            // 도움말보기ToolStripMenuItem
+            // 
+            this.도움말보기ToolStripMenuItem.Name = "도움말보기ToolStripMenuItem";
+            this.도움말보기ToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
+            this.도움말보기ToolStripMenuItem.Text = "도움말보기";
+            // 
+            // 피드백보내기ToolStripMenuItem
+            // 
+            this.피드백보내기ToolStripMenuItem.Name = "피드백보내기ToolStripMenuItem";
+            this.피드백보내기ToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
+            this.피드백보내기ToolStripMenuItem.Text = "피드백 보내기";
+            // 
+            // 메모장정보ToolStripMenuItem
+            // 
+            this.메모장정보ToolStripMenuItem.Name = "메모장정보ToolStripMenuItem";
+            this.메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
+            this.메모장정보ToolStripMenuItem.Text = "메모장 정보";
             // 
             // Form1
             // 
@@ -415,6 +440,9 @@
         private System.Windows.Forms.ToolStripMenuItem 축소ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 확대하기축소하기기본값복원ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 상태표시줄ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 도움말보기ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 피드백보내기ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 메모장정보ToolStripMenuItem;
     }
 }
 
